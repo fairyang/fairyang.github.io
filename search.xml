@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>博客提交时报错</title>
+      <link href="/2020/07/08/bo-ke-ti-jiao-shi-bao-cuo/"/>
+      <url>/2020/07/08/bo-ke-ti-jiao-shi-bao-cuo/</url>
+      
+        <content type="html"><![CDATA[<p>博客提交时出现错误：</p><pre><code>ERROR Process failed: _posts/《宏观经济学》学习笔记3.mdYAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 12, column 5:tags:     ^at generateError (/home/fair/blog/node_modules/js-yaml/lib/js-yaml/loader.js:167:10)at throwError (/home/fair/blog/node_modules/js-yaml/lib/js-yaml/loader.js:173:9)at readBlockMapping (/home/fair/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1073:9)at composeNode (/home/fair/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1359:12)at readDocument (/home/fair/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1519:3)at loadDocuments (/home/fair/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1575:5)at Object.load (/home/fair/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1596:19)at parseYAML (/home/fair/blog/node_modules/hexo-front-matter/lib/front_matter.js:80:21)at parse (/home/fair/blog/node_modules/hexo-front-matter/lib/front_matter.js:56:12)at /home/fair/blog/node_modules/hexo/lib/plugins/processor/post.js:48:20at tryCatcher (/home/fair/blog/node_modules/bluebird/js/release/util.js:16:23)at Promise._settlePromiseFromHandler (/home/fair/blog/node_modules/bluebird/js/release/promise.js:514:35)at Promise._settlePromise (/home/fair/blog/node_modules/bluebird/js/release/promise.js:574:18)at Promise._settlePromise0 (/home/fair/blog/node_modules/bluebird/js/release/promise.js:619:10)at Promise._settlePromises (/home/fair/blog/node_modules/bluebird/js/release/promise.js:699:18)at Promise._fulfill (/home/fair/blog/node_modules/bluebird/js/release/promise.js:643:18)at PromiseArray._resolve (/home/fair/blog/node_modules/bluebird/js/release/promise_array.js:126:19)at PromiseArray._promiseFulfilled (/home/fair/blog/node_modules/bluebird/js/release/promise_array.js:144:14)at PromiseArray._iterate (/home/fair/blog/node_modules/bluebird/js/release/promise_array.js:114:31)at PromiseArray.init [as _init] (/home/fair/blog/node_modules/bluebird/js/release/promise_array.js:78:10)at Promise._settlePromise (/home/fair/blog/node_modules/bluebird/js/release/promise.js:571:21)at Promise._settlePromise0 (/home/fair/blog/node_modules/bluebird/js/release/promise.js:619:10)at Promise._settlePromises (/home/fair/blog/node_modules/bluebird/js/release/promise.js:699:18)at Promise._fulfill (/home/fair/blog/node_modules/bluebird/js/release/promise.js:643:18)at PromiseArray._resolve (/home/fair/blog/node_modules/bluebird/js/release/promise_array.js:126:19)at PromiseArray._promiseFulfilled (/home/fair/blog/node_modules/bluebird/js/release/promise_array.js:144:14)at Promise._settlePromise (/home/fair/blog/node_modules/bluebird/js/release/promise.js:579:26)at Promise._settlePromise0 (/home/fair/blog/node_modules/bluebird/js/release/promise.js:619:10)</code></pre><p>原因：.md文件开头的声明之中没加空格</p><p>解决方法：在冒号:后面加上空格</p><p>参考 <a href="https://www.cnblogs.com/wangyuehan/p/9864830.html" target="_blank" rel="noopener">https://www.cnblogs.com/wangyuehan/p/9864830.html</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 错误日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 错误日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇博客</title>
       <link href="/2020/07/06/wo-de-di-yi-pian-bo-ke/"/>
       <url>/2020/07/06/wo-de-di-yi-pian-bo-ke/</url>
       
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>崩了无数次终于弄好了，非常感谢洪宇大神的开源和羊哥(CodeSheep)的教程。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       

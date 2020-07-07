@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunhwee.com/"/>
-  <updated>2020-07-06T15:39:42.705Z</updated>
+  <updated>2020-07-07T23:10:06.717Z</updated>
   <id>https://sunhwee.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的第一篇博客</title>
-    <link href="https://sunhwee.com/2020/07/06/wo-de-di-yi-pian-bo-ke/"/>
-    <id>https://sunhwee.com/2020/07/06/wo-de-di-yi-pian-bo-ke/</id>
-    <published>2020-07-06T15:37:58.000Z</published>
-    <updated>2020-07-06T15:39:42.705Z</updated>
+    <title>博客提交时报错</title>
+    <link href="https://sunhwee.com/2020/07/08/bo-ke-ti-jiao-shi-bao-cuo/"/>
+    <id>https://sunhwee.com/2020/07/08/bo-ke-ti-jiao-shi-bao-cuo/</id>
+    <published>2020-07-07T23:02:39.000Z</published>
+    <updated>2020-07-07T23:10:06.717Z</updated>
     
     <summary type="html">
     
@@ -29,11 +29,40 @@
       
         
         
-          &lt;script&gt;
+          &lt;p&gt;博客提交时出现错误：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ERROR Process failed: _posts/《宏观经济学》学习笔记3.md
+
+YAMLException: can not read a block mapping entry; a multiline
+        
+      
+    
+    </summary>
+    
+      <category term="错误日志" scheme="https://sunhwee.com/categories/%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97/"/>
+    
+    
+      <category term="错误日志" scheme="https://sunhwee.com/tags/%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="https://sunhwee.com/2020/07/06/wo-de-di-yi-pian-bo-ke/"/>
+    <id>https://sunhwee.com/2020/07/06/wo-de-di-yi-pian-bo-ke/</id>
+    <published>2020-07-06T15:37:58.000Z</published>
+    <updated>2020-07-07T23:13:34.383Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;崩了无数次终于弄好了，非常感谢洪宇大神的开源和羊哥(CodeSheep)的教程。&lt;/p&gt;
+&lt;script&gt;
         document.querySelectorAll(&#39;.github-emoji&#39;)
           .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
+    
         
       
     
