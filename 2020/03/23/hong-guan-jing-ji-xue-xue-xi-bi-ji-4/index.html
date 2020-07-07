@@ -6,10 +6,20 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: 博客, 杨公政">
+    <meta name="keywords" content="《宏观经济学》学习笔记4, 杨公政">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
-    <meta name="description" content="标签: 博客 | 杨公政">
+    <meta name="description" content="五、总供给总需求模型
+原因
+在引入对通货膨胀的讨论后，需要一个比凯恩斯模型更加全面的模型
+财政政策对产出和通货膨胀的影响
+货币政策对产出和通货膨胀的影响
+经济的短期和长期均衡
+
+
+核心部分
+主要变量：产出和通货膨胀（或者价格）
+短期总供给曲">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +27,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>标签: 博客 | 杨公政</title>
+    <title>《宏观经济学》学习笔记4 | 杨公政</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -599,132 +609,659 @@
 
 </header>
 
-        <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                <!-- 
-                    杨公政
-                 -->
-                
-                    标签
-                
-            </div>
+        
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
 
-            <div class="description center-align">
-                
-                    <!-- 新疆大学 | 工业工程 | 统计学 -->
-                    <span id="jinrishici-sentence">正在加载今日诗词...</span>
-                
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        《宏观经济学》学习笔记4
+                    </div>
+                </div>
             </div>
-            
-            
         </div>
     </div>
 </div>
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 20px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- shw2018 洪卫  modify 2019.08.15-->
+<!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/宏观经济学/" target="_blank">
+                                <span class="chip bg-color">宏观经济学</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/宏观经济学/" class="post-category" target="_blank">
+                                宏观经济学
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-03-23
+                </div>
+
+                <div class="post-author info-break-policy">
+                    <i class="fa fa-user-o fa-fw"></i>作者:&nbsp;&nbsp;
+                    
+                        杨公政
+                    
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.4k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        4 分
+                    </div>
+                    
+                
+                
+                
+                        <span id="busuanzi_container_site_pv" style='display:none'></span>
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv" ></span>
+    
+                
+
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h3 id="五、总供给总需求模型"><a href="#五、总供给总需求模型" class="headerlink" title="五、总供给总需求模型"></a>五、总供给总需求模型</h3><ul>
+<li>原因<ul>
+<li>在引入对通货膨胀的讨论后，需要一个比凯恩斯模型更加全面的模型</li>
+<li>财政政策对产出和通货膨胀的影响</li>
+<li>货币政策对产出和通货膨胀的影响</li>
+<li>经济的短期和长期均衡</li>
+</ul>
+</li>
+<li>核心部分<ul>
+<li>主要变量：产出和通货膨胀（或者价格）</li>
+<li>短期总供给曲线（AS）向上倾斜</li>
+<li>短期总需求曲线（AD）向下倾斜</li>
+<li>长期总供给曲线（LRAS）垂直于横轴</li>
+</ul>
+</li>
+<li>经济对冲击的反应<ul>
+<li>影响短期需求的因素<ul>
+<li>出口、自发消费等因素影响需求，改变需求曲线AD的位置</li>
+</ul>
+</li>
+<li>影响短期供给的因素<ul>
+<li>原油价格、天气等导致通货膨胀，改变短期的供给曲线AS的位置</li>
+<li>企业的通货膨胀预期，改变短期的供给曲线AS的位置</li>
+</ul>
+</li>
+<li>影响长期供给的因素<ul>
+<li>长期的技术和制度变化带来的长期供给的改变</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>应对冲击<ul>
+<li>政府政策<ul>
+<li>政府政策干预<ul>
+<li>优点：产出停留在低水平的时间短，失业代价小</li>
+<li>缺点；财政政策或者货币政策可能有副作用，经济可能过热</li>
+</ul>
+</li>
+<li>政府政策不干预，市场出清<ul>
+<li>优点：不需要政府动用资源调节经济，长期通货膨胀下降</li>
+<li>缺点：产出停留在低水平的时间可能较长，失业代价高</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>理解短期和长期<ul>
+<li>短期（1-2年）<ul>
+<li>企业无法迅速调整价格来时产出达到长期均衡水平</li>
+</ul>
+</li>
+<li>长期（3-5年）<ul>
+<li>价格因素的影响消失，市场出清，产能回归潜在产能</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="六、国际经济"><a href="#六、国际经济" class="headerlink" title="六、国际经济"></a>六、国际经济</h3><ul>
+<li>汇率（在国际经济交往中，对不同的货币进行兑换是使用的比价）<ul>
+<li>国际收支帐户<ul>
+<li>统计一个国家与其他国家地区的交易</li>
+<li>经常项目<ul>
+<li>统计贸易交易的数据<ul>
+<li>产品和服务的进出口</li>
+<li>资本和劳动力的进出口</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>资本项目<ul>
+<li>统计资产交易的金额<ul>
+<li>出售本国资产给外国人的总值，减购买外国资产的总值</li>
+<li>资产交易包括股票、政府债务、私人债务、房地产税</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>双边名义汇率<ul>
+<li>一个国家和另一个国家之间货币兑换的比例</li>
+<li>定义：用本国货币计价的外币的价格</li>
+<li>在两国的贸易中，影响短期贸易优势的校正过价格差别的汇率（双边的实际汇率）</li>
+</ul>
+</li>
+<li>购买力平价汇率（eppp)<ul>
+<li>合理的汇率应该让同样数量的货币在不同国家拥有相同购买力</li>
+<li>用途 <ol>
+<li>对于有些国家，购买力平价汇率是市场在长期中的合理估值</li>
+<li>购买力平价汇率可以帮助我们对比不同国家的实际产出水平</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>发展中国家的物价普遍更低，用市场汇率折算的产出收到低估</li>
+<li>名义有效汇率<ul>
+<li>实质上是多个双边汇率的平均</li>
+<li>根据不同国家在国际经济中的重要程度，我们可以给不同的国家的汇率不同的权重</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>汇率理论</p>
+<ol>
+<li>购买力平价（基于贸易）<ul>
+<li>绝对购买力平价<ul>
+<li>合理的汇率应该让同样数量的一种货币在不同的国家拥有相同购买力</li>
+</ul>
+</li>
+<li>相对购买力平价<ul>
+<li>如果一国的通货膨胀率比另一国高，其货币兑另一国货币应贬值</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>利率平价（基于资本流通）</li>
+</ol>
+<ul>
+<li>利用购买力平价和利率平价进行预测需要的宏观变量：实际GDP，利率，货币发行量</li>
+<li>对于1年以上的中长期的利率，基于宏观变量的模型有一定的预测能力</li>
+<li>这些模型通常在预测1年以内的利率时汇率准确度不高</li>
+</ul>
+</li>
+<li><p>汇率制度与宏观经济政策</p>
+<ul>
+<li><p>汇率制度</p>
+<ul>
+<li>固定汇率制度</li>
+<li>浮动汇率制度</li>
+<li>中间类型制度</li>
+</ul>
+</li>
+<li><p>中国的汇率制度</p>
+<ul>
+<li>中国实行的是管理浮动的汇率制度</li>
+<li>人民币兑美元汇率每日交易区间最大达到：+/-3%</li>
+<li>中间价=收盘汇率+一篮子货币汇率变化+逆周期调节因子<ul>
+<li>收盘汇率  —市场的供需</li>
+<li>一篮子货币汇率变化–整体上各个国家汇率对美元的走势</li>
+<li>逆周期调节因子–过滤市场情绪的过度波动</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>三元悖论</p>
+<ol>
+<li><p>稳定或固定的汇率–有利于国家之间贸易和资本往来</p>
+</li>
+<li><p>国际资本的自由流动—开放资本项目</p>
+</li>
+<li><p>货币政策自主–能用货币政策来管理GDP和通货膨胀</p>
+<p>国际经济学中的三元悖论：一个国家最多只能选择三个目标中的两个，不能三者兼得</p>
+<p>三种选择</p>
+<ol>
+<li>固定汇率+资本自由流动（不能使用泰勒规则调节经济）</li>
+<li>资本自由流动+货币政策自主</li>
+<li>固定汇率+货币政策自主</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h6 id="学完了，感觉这只是一个科普，没什么卵用呀"><a href="#学完了，感觉这只是一个科普，没什么卵用呀" class="headerlink" title="学完了，感觉这只是一个科普，没什么卵用呀"></a>学完了，感觉这只是一个科普，没什么卵用呀</h6><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            
+            
+            
+            <div class="reprint1">
+                <p>
+                    <span class="reprint1-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
+                    <a href="https://sunhwee.com" class="b-link-green">杨公政</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2020/03/23/hong-guan-jing-ji-xue-xue-xi-bi-ji-4/" class="b-link-green">《宏观经济学》学习笔记4</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/07/06/wo-de-di-yi-pian-bo-ke/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="我的第一篇博客">
+                        
+                        <span class="card-title">我的第一篇博客</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-06
+                        </span>
+                        <span class="publish-author">
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/03/22/hong-guan-jing-ji-xue-xue-xi-bi-ji-3/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="《宏观经济学》学习笔记3">
+                        
+                        <span class="card-title">《宏观经济学》学习笔记3</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            看着好玩就学了系列
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-03-22
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/《宏观经济学》学习笔记/" class="post-category" target="_blank">
+                                    《宏观经济学》学习笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/宏观经济学/" target="_blank">
+                        <span class="chip bg-color">宏观经济学</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
 <script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('1200')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 杨公政<br />'
+            + '作者: 杨公政<br />'
+            + '链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
 </script>
 
 
     </div>
-</div>
-
-<main class="content">
-
-    
-
-<div id="tags" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fa fa-tags"></i>&nbsp;&nbsp;文章标签
-            </div>
-            <div class="tag-chips">
-                
-                
-                <a href="/tags/Hexo/" title="Hexo: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Hexo" style="background-color: #F9EBEA;">Hexo
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Github/" title="Github: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Github" style="background-color: #F5EEF8;">Github
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/博客/" title="博客: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="博客" style="background-color: #D5F5E3;">博客
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/宏观经济学/" title="宏观经济学: 4">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="宏观经济学" style="background-color: #E8F8F5;">宏观经济学
-                        <span class="tag-length">4</span>
-                    </span>
-                </a>
-                
-            </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
 
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fa fa-list"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h1, h2, h3, h4, h5'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).slideUp(500);
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).slideDown(500);
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
     
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="Hexo, Github, 博客" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2019/08/27/blog-open-source/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="博客开源">
-                            
-                            <span class="card-title">博客开源</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-27
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/软件安装与配置/" class="post-category" target="_blank">
-                                软件安装与配置
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </article>
 </main>
 
 
